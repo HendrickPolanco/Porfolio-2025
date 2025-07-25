@@ -112,8 +112,8 @@ gap: 10rem;
 .intro .introduction-container{
     
     padding: 1rem;
-    width: 55%;
-    height:60%;
+    width: 75%;
+    height:75%;
     overflow: auto;
     background-color: white;
     /* border-radius: 1px;  */
@@ -135,8 +135,11 @@ gap: 10rem;
     
     
 }
+.seftDescription h1{
+    font-size: large;
+}
 p,li{
-    font-size: larger;
+    font-size: medium;
 }
 .seftDescription ul li{
     font-weight: bold;
@@ -335,7 +338,7 @@ animation:vibrate .5s linear both;
 }
 
 .card-projects{
-    flex: 0 1 20rem;
+    flex: 0 1 15rem;
     padding: 2px;
     overflow: hidden;
     background-color: white;
